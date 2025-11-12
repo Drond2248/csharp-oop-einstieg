@@ -8,6 +8,9 @@ public class Fahrzeug
     public int Hubraum { get; }
     public Fahrzeug(string name, string farbe, int kw, int hubraum)
     {
-        Name = name; Farbe = farbe; Kw = kw; Hubraum = hubraum;
+        Name = name;
+        Farbe = farbe; 
+        Kw = kw; 
+        Hubraum = hubraum;
     }
 }
